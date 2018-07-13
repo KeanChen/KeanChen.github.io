@@ -1,0 +1,68 @@
+---
+layout: page
+title: "Vlog"
+header-img: "img/vlog.jpg"
+description: " I'm a vlogger. "
+---
+
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" href="css/style.css">
+<link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="dist/css/glightbox.css">
+    <div class="wrap" id="photos" style="display:none;">
+      <ul class="box-container three-cols">
+        <li class="box">
+          <a href="video/large/yoyo1.mp4" class="glightbox4">
+						<img src="video/small/gm1.jpg" alt="image">
+					</a>
+        </li>
+        <li class="box">
+          <a href="video/large/yoyo2.mp4" class="glightbox4">
+						<img src="video/small/gm2.jpg" alt="image">
+					</a>
+        </li>
+        <li class="box">
+          <a href="video/large/dance.mp4" class="glightbox4">
+						<img src="video/small/gm3.jpg" alt="image">
+					</a>
+        </li>
+        <li class="box">
+          <a href="video/large/pingpang.mp4" class="glightbox4">
+						<img src="video/small/gm4.jpg" alt="image">
+					</a>
+        </li>
+        <li class="box">
+          <a href="video/large/gf1.mp4" class="glightbox4">
+						<img src="video/small/gm5.jpg" alt="image">
+					</a>
+        </li>
+        <li class="box">
+          <a href="video/large/gf2.mp4" class="glightbox4">
+						<img src="video/small/gm6.jpg" alt="image">
+					</a>
+        </li>
+      </ul>
+    </div>
+	
+	<script src="dist/js/glightbox.min.js"></script>
+	<script src="js/site.js"></script>
+ <script>
+	    var lightbox = GLightbox();
+	    var lightboxDescription = GLightbox({
+	      selector: 'glightbox2'
+	    });
+	    var lightboxVideo = GLightbox({
+	      selector: 'glightbox3',
+	      jwplayer: {
+	        api: 'https://content.jwplatform.com/libraries/QzXs2BlW.js',
+	        licenseKey: 'imB2/QF0crMqHks7/tAxcTRRjnqA9ZwxWQ2N1A=='
+	      }
+	    });
+	    var lightboxInlineIframe = GLightbox({
+	      'selector': 'glightbox4'
+	    });
+
+      setTimeout(function () {
+        $("#photos").show();
+      }, 20);
+	  </script>
