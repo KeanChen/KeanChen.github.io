@@ -56,12 +56,26 @@ kramdown:
 
 
 
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: 
 
+# Gitalk
+#gitalk:
+#  enable: true    #是否开启Gitalk评论
+#  clientID:    #生成的clientID
+#  clientSecret:   #同上
+#  repo: KeanChen.github.io    #仓库名称
+#  owner: KeanChen    #github用户名
+#  admin: KeanChen
+#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
 
 # Analytics settings
+# Baidu Analytics
+#ba_track_id: 
 
 # Google Analytics
 ga_track_id: 'UA-116690325-1'            # Format: UA-xxxxxx-xx
