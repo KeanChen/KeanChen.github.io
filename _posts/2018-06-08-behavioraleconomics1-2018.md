@@ -43,6 +43,12 @@ tags:
 * 由于对个人行为的假设不同，新古典学派认为政府干预措施无效，而凯恩斯学派认为应提倡政府干预。
 * 好的行为政策设计具有成本可忽略而效果显著的特点。
 
+**参考文献：**
+
+> Camerer, Loewenstein. "Behavioral economics: Past, present, future." Advances in Behavioral Economics (2011): 1.
+> 
+> DellaVigna, Stefano. "Psychology and economics: Evidence from the field." Journal of Economic Literature 47.2 (2009): 315-72.
+
 ## 理性与非理性行为
 ### 什么是理性人假设
 * 完备性：人要能够对选择排序
@@ -79,3 +85,9 @@ tags:
 
 * 估计行为特征函数
 * 跨情景预测行为
+
+**参考文献：**
+
+> Simon, Herbert Alexander. Models of Bounded Rationality: Empirically Grounded Economic Reason. Vol. 3. MIT press, 1982.
+> 
+> Kahneman, Daniel. "Maps of bounded rationality: Psychology for behavioral economics." American Economic Review 93.5 (2003): 1449-1475.
