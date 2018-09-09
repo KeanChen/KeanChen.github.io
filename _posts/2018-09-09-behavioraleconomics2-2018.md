@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      参考点              # 标题 
+title:      参照点              # 标题 
 subtitle:   《行为经济学》学习笔记（2） #副标题
 date:       2018-09-09              # 时间
 author:     Keyon                      # 作者
