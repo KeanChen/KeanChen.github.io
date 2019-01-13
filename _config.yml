@@ -111,5 +111,8 @@ friends: [
     },{
         title: "Kanon Blog",
         href: "https://kanonjz.github.io/"
+    },{
+        title: "Komachi",
+        href: "https://komachi.moe/"
     }
 ]
