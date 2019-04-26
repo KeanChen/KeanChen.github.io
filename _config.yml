@@ -17,7 +17,7 @@ sidebar-avatar: /img/about-Keyon-gentle.JPG      # use absolute URL, seeing it's
 
 
 # SNS settings
-RSS: false          
+RSS: true          
 github_username:    KeanChen
 facebook_username:  keanchen1203
 twitter_username:   keanchen1203
