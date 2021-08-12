@@ -1,3 +1,3 @@
-Hi, I'm Keyon (Kean Chen), still in the process of self-development. 
+Hi, I'm Keyon (Tan Kwa Ann), still in the process of self-development. 
 
 The original purpose of setting up this blog is not only to record some of my experiences and thoughts, but also it can let me look back to see my changes after many years. The mediums for recording are articles, photos: articles contain my personal thoughts, learning notes, book reviews, film reviews and other contents, hoping they still have value of reference after 5 years; the content of photos is mainly about me and my life.
