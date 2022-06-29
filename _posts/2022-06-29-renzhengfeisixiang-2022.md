@@ -1,4 +1,4 @@
-```yaml
+---
 layout:     post                    # 使用的布局（不需要改）
 title:      任正非思想              # 标题 
 subtitle:   阅读笔记 #副标题
@@ -8,7 +8,7 @@ header-img: img/post-bg-renzhengfei.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:
   书籍
-```
+---
 
 很久之前就有关注[任正非思想在GitHub的Repository](https://github.com/ttpianobirds/RenZhengfei)，但由于自己健忘的特性，把阅读这些资料的Flag给忘记了，今日读毕发现真的很有启发，于是记录一些读书笔记。
 
