@@ -12,28 +12,25 @@ tags:
 
 # 哔哩哔哩
 
+| 视频 | Up主 | 是否看完 |
+| :----: | :----: | :----: |
+| [进化缓慢的人性](https://www.bilibili.com/video/BV1ke4y1h7VJ/) | 渤海小吏 | ✅ |
+| [《教父》解析](https://www.bilibili.com/video/BV14u41127Tv/) | 吸奇侠 | ✅ |
+| [《史记》解读](https://www.bilibili.com/video/BV1cM41197ui/) | 木鱼水心 |  |
+| [【激荡四十年】系列](https://www.bilibili.com/video/BV1AK4y147uB/) | 大象放映室 |  |
+| [《雍正王朝》历史上的他们](https://www.bilibili.com/video/BV1gq4y1N73Y/) | 正直讲史-李正Str |  |
+| [汉武时代漫谈](https://www.bilibili.com/video/BV12K4y1e7ZU/) | 草说木言 | ✅ |
+| [【孙子兵法】十三篇速览](https://www.bilibili.com/video/BV1C5411T7FD/) | 草说木言 | ✅ |
 
-进化缓慢的人性：
+# 其他
 
-<iframe src="//player.bilibili.com/player.html?aid=560327730&bvid=BV1ke4y1h7VJ&cid=827362870&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
-
-《教父》超细致解析：
-
-<iframe src="//player.bilibili.com/player.html?aid=508047907&bvid=BV14u41127Tv&cid=481465792&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
-
-故事 | HISTORY：
-
-<iframe src="//player.bilibili.com/player.html?aid=535243818&bvid=BV1cM41197ui&cid=1312553206&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
-
-【激荡四十年】系列：
-
-<iframe src="//player.bilibili.com/player.html?aid=883543984&bvid=BV1AK4y147uB&cid=472061176&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
-
-《雍正王朝》历史上的他们：
-
-<iframe src="//player.bilibili.com/player.html?aid=548400821&bvid=BV1gq4y1N73Y&cid=421500183&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
-
-# GitHub
-
-* [kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya)
-* [RenZhengfei](https://github.com/ttpianobirds/RenZhengfei)
+| 资料 | 作者 | 是否看完 |
+| :----: | :----: | :----: |
+| [任正非思想](https://github.com/ttpianobirds/RenZhengfei) | 任正非 |  |
+| [kkndme神贴](https://github.com/shengcaishizhan/kkndme_tianya) | kkndme | ✅ |
+| 水库论坛 | yevon_ou | ✅ |
+| 政事堂文集 | 顾子明 |  |
+| 晚清沧海事 | 灼识新维度 | ✅ |
+| 正读周易 | 苕木匠 |  |
+| 通往财富自由之路 | 李笑来 | ✅ |
+| 产品思维30讲 | 梁宁 | ✅ |
