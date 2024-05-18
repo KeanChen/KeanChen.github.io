@@ -13,13 +13,25 @@ tags:
 # 哔哩哔哩
 
 
-渤海小吏：
+进化缓慢的人性：
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=560327730&bvid=BV1ke4y1h7VJ&cid=827362870&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="//player.bilibili.com/player.html?aid=560327730&bvid=BV1ke4y1h7VJ&cid=827362870&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
 
-教父系列：
+《教父》超细致解析：
 
 <iframe src="//player.bilibili.com/player.html?aid=508047907&bvid=BV14u41127Tv&cid=481465792&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+
+故事 | HISTORY：
+
+<iframe src="//player.bilibili.com/player.html?aid=535243818&bvid=BV1cM41197ui&cid=1312553206&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+
+【激荡四十年】系列：
+
+<iframe src="//player.bilibili.com/player.html?aid=883543984&bvid=BV1AK4y147uB&cid=472061176&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+
+《雍正王朝》历史上的他们：
+
+<iframe src="//player.bilibili.com/player.html?aid=548400821&bvid=BV1gq4y1N73Y&cid=421500183&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
 
 # GitHub
 
