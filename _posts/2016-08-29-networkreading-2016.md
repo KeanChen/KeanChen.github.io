@@ -17,10 +17,9 @@ tags:
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=560327730&bvid=BV1ke4y1h7VJ&cid=827362870&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
-
 教父系列：
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=508047907&bvid=BV14u41127Tv&cid=481465792&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="//player.bilibili.com/player.html?aid=508047907&bvid=BV14u41127Tv&cid=481465792&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
 
 # GitHub
 
