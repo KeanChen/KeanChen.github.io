@@ -21,6 +21,9 @@ tags:
 | [《雍正王朝》历史上的他们](https://www.bilibili.com/video/BV1gq4y1N73Y/) | 正直讲史-李正Str |  |
 | [汉武时代漫谈](https://www.bilibili.com/video/BV12K4y1e7ZU/) | 草说木言 | ✅ |
 | [【孙子兵法】十三篇速览](https://www.bilibili.com/video/BV1C5411T7FD/) | 草说木言 | ✅ |
+| [Java](https://www.bilibili.com/video/BV1fh411y7R8/) | 韩顺平 |  |
+| [高中数学](https://www.bilibili.com/video/BV147411K7xu/) | 一数 |  |
+| [高考英语](https://www.bilibili.com/video/BV1MY4y1P7Jj/) | FREE高考英语 |  |
 
 # 其他
 
