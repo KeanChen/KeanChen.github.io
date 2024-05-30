@@ -18,8 +18,11 @@ tags:
 | [《教父》解析](https://www.bilibili.com/video/BV14u41127Tv/) | 吸奇侠 | ✅ |
 | [《史记》解读](https://www.bilibili.com/video/BV1cM41197ui/) | 木鱼水心 |  |
 | [【激荡四十年】系列](https://www.bilibili.com/video/BV1AK4y147uB/) | 大象放映室 |  |
-| [《雍正王朝》历史上的他们](https://www.bilibili.com/video/BV1gq4y1N73Y/) | 正直讲史-李正Str |  |
 | [汉武时代漫谈](https://www.bilibili.com/video/BV12K4y1e7ZU/) | 草说木言 | ✅ |
+| [《雍正王朝》历史上的他们](https://www.bilibili.com/video/BV1gq4y1N73Y/) | 正直讲史-李正Str |  |
+| [《雍正王朝》精讲合集](https://www.bilibili.com/video/BV1Hy4y1J7xH/) | 史君说剧 |  |
+| [《大明王朝1566》解说全集](https://www.bilibili.com/video/BV1t94y1J7wB/) | 谢玄1991 |  |
+| [深度解读三体全集《玫瑰叔品三体》](https://www.bilibili.com/video/BV1D54y1X765/) | Fuji_玫瑰叔 |  |
 | [【孙子兵法】十三篇速览](https://www.bilibili.com/video/BV1C5411T7FD/) | 草说木言 | ✅ |
 | [Java](https://www.bilibili.com/video/BV1fh411y7R8/) | 韩顺平 |  |
 | [高中数学](https://www.bilibili.com/video/BV147411K7xu/) | 一数 |  |
