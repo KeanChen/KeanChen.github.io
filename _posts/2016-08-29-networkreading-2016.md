@@ -26,6 +26,7 @@ tags:
 | [详细解说《绝命毒师》](https://www.bilibili.com/video/BV1b44y1g7UD/) | 阿斗归来了 |  |
 | [一口气看完《风骚律师》](https://www.bilibili.com/video/BV1Ue4y1o7WU/) | 绝命墨菲 |  |
 | [【孙子兵法】十三篇速览](https://www.bilibili.com/video/BV1C5411T7FD/) | 草说木言 | ✅ |
+| [计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th/) | CrashCourse字幕组 |  |
 | [Java](https://www.bilibili.com/video/BV1fh411y7R8/) | 韩顺平 |  |
 | [高中数学](https://www.bilibili.com/video/BV147411K7xu/) | 一数 |  |
 | [高考英语](https://www.bilibili.com/video/BV1MY4y1P7Jj/) | FREE高考英语 |  |
