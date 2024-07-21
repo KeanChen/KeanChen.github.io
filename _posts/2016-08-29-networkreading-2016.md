@@ -36,6 +36,7 @@ tags:
 | [黑暗之魂3](https://www.bilibili.com/video/BV1Ct411p79i/) | 大湿的学徒 | ✅ |
 | [黑暗之魂1](https://www.bilibili.com/video/BV1KW411w7LX/) | 大湿的学徒 | ✅ |
 | [血源诅咒](https://www.bilibili.com/video/BV1d7411P7oC/) | 随义のfreely | ✅ |
+| [密特罗德：生存恐惧](https://www.bilibili.com/video/BV19q4y197jG/) | 艾莉希安 | ✅ |
 
 # 其他
 
