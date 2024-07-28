@@ -28,6 +28,7 @@ tags:
 | [【孙子兵法】十三篇速览](https://www.bilibili.com/video/BV1C5411T7FD/) | 草说木言 | ✅ |
 | [计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th/) | CrashCourse字幕组 |  |
 | [Java](https://www.bilibili.com/video/BV1fh411y7R8/) | 韩顺平 |  |
+| [装机教程](https://www.bilibili.com/video/BV1BG4y137mG/) | 硬件茶谈 |  |
 | [高中数学](https://www.bilibili.com/video/BV147411K7xu/) | 一数 |  |
 | [高考英语](https://www.bilibili.com/video/BV1MY4y1P7Jj/) | FREE高考英语 |  |
 | [上古卷轴5:天际](https://www.bilibili.com/video/BV1N4411n7yc/) | 玉强 |  |
@@ -35,7 +36,10 @@ tags:
 | [神界原罪2](https://www.bilibili.com/video/BV14E411N7Dq/) | 跛腿骑士 |  |
 | [黑暗之魂3](https://www.bilibili.com/video/BV1Ct411p79i/) | 大湿的学徒 | ✅ |
 | [黑暗之魂1](https://www.bilibili.com/video/BV1KW411w7LX/) | 大湿的学徒 | ✅ |
+| [战神4](https://www.bilibili.com/video/BV1Rb4y1e79T/) | 大湿的学徒 | ✅ |
+| [生化危机4](https://www.bilibili.com/video/BV1eF411Z7aG/) | 大湿的学徒 |  |
 | [血源诅咒](https://www.bilibili.com/video/BV1d7411P7oC/) | 随义のfreely | ✅ |
+| [只狼](https://www.bilibili.com/video/BV1Db411s7Ri/) | 紫雨carol | ✅ |
 | [密特罗德：生存恐惧](https://www.bilibili.com/video/BV19q4y197jG/) | 艾莉希安 | ✅ |
 
 # 其他
