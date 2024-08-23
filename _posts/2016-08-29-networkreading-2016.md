@@ -41,6 +41,7 @@ tags:
 | [血源诅咒](https://www.bilibili.com/video/BV1d7411P7oC/) | 随义のfreely | ✅ |
 | [只狼](https://www.bilibili.com/video/BV1Db411s7Ri/) | 紫雨carol | ✅ |
 | [密特罗德：生存恐惧](https://www.bilibili.com/video/BV19q4y197jG/) | 艾莉希安 | ✅ |
+| [混核理论](https://www.bilibili.com/bangumi/play/ss25837) | 机核网 | ✅ |
 
 # 其他
 
