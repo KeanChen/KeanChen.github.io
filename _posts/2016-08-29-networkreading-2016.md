@@ -47,7 +47,7 @@ tags:
 
 | 资料 | 作者 | 是否看完 |
 | :----: | :----: | :----: |
-| [任正非思想](https://github.com/ttpianobirds/RenZhengfei) | 任正非 |  |
+| [任正非思想](https://github.com/ttpianobirds/RenZhengfei) | 任正非 | ✅ |
 | [kkndme神贴](https://github.com/shengcaishizhan/kkndme_tianya) | kkndme | ✅ |
 | 水库论坛 | yevon_ou | ✅ |
 | 政事堂文集 | 顾子明 |  |
