@@ -23,7 +23,7 @@ tags:
 | [《雍正王朝》精讲合集](https://www.bilibili.com/video/BV1Hy4y1J7xH/) | 史君说剧 |  |
 | [《大明王朝1566》解说全集](https://www.bilibili.com/video/BV1t94y1J7wB/) | 谢玄1991 |  |
 | [深度解读三体全集《玫瑰叔品三体》](https://www.bilibili.com/video/BV1D54y1X765/) | Fuji_玫瑰叔 |  |
-| [详细解说《绝命毒师》](https://www.bilibili.com/video/BV1b44y1g7UD/) | 阿斗归来了 |  |
+| [详细解说《绝命毒师》](https://www.bilibili.com/video/BV1b44y1g7UD/) | 阿斗归来了 | ✅ |
 | [一口气看完《风骚律师》](https://www.bilibili.com/video/BV1Ue4y1o7WU/) | 绝命墨菲 |  |
 | [【孙子兵法】十三篇速览](https://www.bilibili.com/video/BV1C5411T7FD/) | 草说木言 | ✅ |
 | [计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th/) | CrashCourse字幕组 |  |
@@ -32,6 +32,7 @@ tags:
 | [高中数学](https://www.bilibili.com/video/BV147411K7xu/) | 一数 |  |
 | [高考英语](https://www.bilibili.com/video/BV1MY4y1P7Jj/) | FREE高考英语 |  |
 | [上古卷轴5:天际](https://www.bilibili.com/video/BV1N4411n7yc/) | 玉强 |  |
+| [塞尔达传说：旷野之息](https://www.bilibili.com/video/BV12W411W7Af/) | 王薯条_ | ✅ |
 | [博德之门3](https://www.bilibili.com/video/BV1cN411h7z7/) | 跛腿骑士 |  |
 | [神界原罪2](https://www.bilibili.com/video/BV14E411N7Dq/) | 跛腿骑士 |  |
 | [黑暗之魂3](https://www.bilibili.com/video/BV1Ct411p79i/) | 大湿的学徒 | ✅ |
@@ -41,6 +42,7 @@ tags:
 | [血源诅咒](https://www.bilibili.com/video/BV1d7411P7oC/) | 随义のfreely | ✅ |
 | [只狼](https://www.bilibili.com/video/BV1Db411s7Ri/) | 紫雨carol | ✅ |
 | [密特罗德：生存恐惧](https://www.bilibili.com/video/BV19q4y197jG/) | 艾莉希安 | ✅ |
+| [刺客信条2](https://www.bilibili.com/video/BV1Ys411U7Fj/) | 天使的回忆 |  |
 | [混核理论](https://www.bilibili.com/bangumi/play/ss25837) | 机核网 | ✅ |
 
 # 其他
