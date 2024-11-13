@@ -17,6 +17,7 @@ tags:
 | [进化缓慢的人性](https://www.bilibili.com/video/BV1ke4y1h7VJ/) | 渤海小吏 | ✅ |
 | [《教父》解析](https://www.bilibili.com/video/BV14u41127Tv/) | 吸奇侠 | ✅ |
 | [《史记》解读](https://www.bilibili.com/video/BV1cM41197ui/) | 木鱼水心 |  |
+| 走向共和 | 木鱼水心 | ✅ |
 | [【激荡四十年】系列](https://www.bilibili.com/video/BV1AK4y147uB/) | 大象放映室 |  |
 | [汉武时代漫谈](https://www.bilibili.com/video/BV12K4y1e7ZU/) | 草说木言 | ✅ |
 | [《雍正王朝》历史上的他们](https://www.bilibili.com/video/BV1gq4y1N73Y/) | 正直讲史-李正Str | ✅ |
