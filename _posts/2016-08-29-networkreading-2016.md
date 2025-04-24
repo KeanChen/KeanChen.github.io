@@ -16,6 +16,8 @@ tags:
 | :----: | :----: | :----: |
 | [进化缓慢的人性](https://www.bilibili.com/video/BV1ke4y1h7VJ/) | 渤海小吏 | ✅ |
 | [《教父》解析](https://www.bilibili.com/video/BV14u41127Tv/) | 吸奇侠 | ✅ |
+| [东周列国志](https://www.bilibili.com/video/BV1Zb4y1a7aw/) | 井水夫人 |  |
+| [大决战](https://www.bilibili.com/video/BV1Yp4y147Qg/) | 1900影剧室 |  |
 | [《史记》解读](https://www.bilibili.com/video/BV1cM41197ui/) | 木鱼水心 |  |
 | [红楼梦](https://www.bilibili.com/video/BV1CC4y1a7ee/) | 木鱼水心 |  |
 | 水浒传 | 木鱼水心 |  |
