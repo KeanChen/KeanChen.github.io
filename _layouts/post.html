@@ -10,7 +10,8 @@ layout: default
 <style type="text/css">
     header.intro-header{
         position: relative;
-        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
+        /* 在这里修改博客文章背景 */
+        background-color: #5bc2e7;
     }
 
     {% if page.header-mask %}
@@ -83,7 +84,7 @@ layout: default
 
 
 
-            </div>  
+            </div>
 
     <!-- Side Catalog Container -->
         {% if page.catalog %}

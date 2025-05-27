@@ -4,7 +4,6 @@ title:      参考文献              # 标题
 subtitle:   《行为经济学》学习笔记 #副标题
 date:       2018-06-08              # 时间
 author:     Keyon                      # 作者
-header-img: img/post-bg-behavioraleconomics.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:
   行为经济学

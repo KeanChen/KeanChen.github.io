@@ -4,7 +4,6 @@ title:      网络参考资料汇总              # 标题
 subtitle:   当下&价值 #副标题
 date:       2016-08-29              # 时间
 author:     Keyon                      # 作者
-header-img: img/post-bg-networkreading.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:
  资料
