@@ -51,7 +51,7 @@ kramdown:
 # 评论系统
 # Giscus 评论系统
 giscus:
-  enable: true
+  enable: false
   repo: KeanChen/KeanChen.github.io
   repo-id: # 需要在 https://giscus.app 获取
   category: General
