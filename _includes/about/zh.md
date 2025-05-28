@@ -1,3 +1,23 @@
 Hey，我是Keyon，仍在成长中。
 
 搭建这个博客的初衷是记录我的一些经历、思考，同时也可以多年后回过头来看看自己的变化。记录的媒介是文章、照片：文章包含我的个人思考、学习笔记、书评影评等等内容，希望它们5年后依然有可读价值；照片的内容主要为我及我的生活。
+
+<div class="bonfire-container">
+    <div class="bonfire-scene">
+        <div class="bonfire-base"></div>
+        <div class="bonfire-flames">
+            <div class="flame flame-1"></div>
+            <div class="flame flame-2"></div>
+            <div class="flame flame-3"></div>
+            <div class="flame flame-4"></div>
+            <div class="flame flame-5"></div>
+        </div>
+        <div class="bonfire-sparks">
+            <div class="spark spark-1"></div>
+            <div class="spark spark-2"></div>
+            <div class="spark spark-3"></div>
+            <div class="spark spark-4"></div>
+        </div>
+        <div class="bonfire-text">篝火已点燃</div>
+    </div>
+</div>
