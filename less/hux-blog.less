@@ -1185,39 +1185,7 @@ img::-moz-selection {
 	100% { bottom: 38px; opacity: 0; transform: translateX(18px); }
 }
 
-/* 篝火文字 - 8bit风格 */
-.bonfire-text {
-	position: absolute;
-	bottom: -35px;
-	left: 50%;
-	transform: translateX(-50%);
-	font-family: 'Courier New', monospace;
-	font-size: 14px;
-	font-weight: bold;
-	color: #FFD700;
-	text-shadow:
-		0 0 5px #FF4500,
-		0 0 10px #FF6347,
-		0 0 15px #FF7F50;
-	animation: textGlow 2s ease-in-out infinite alternate;
-	letter-spacing: 1px;
-}
 
-@keyframes textGlow {
-	0% {
-		text-shadow:
-			0 0 5px #FF4500,
-			0 0 10px #FF6347,
-			0 0 15px #FF7F50;
-	}
-	100% {
-		text-shadow:
-			0 0 8px #FF4500,
-			0 0 15px #FF6347,
-			0 0 25px #FF7F50,
-			0 0 35px #FFA500;
-	}
-}
 
 /* 响应式设计 */
 @media (max-width: 768px) {
@@ -1248,10 +1216,7 @@ img::-moz-selection {
 	.flame-4 { width: 10px; height: 20px; }
 	.flame-5 { width: 8px; height: 16px; }
 
-	.bonfire-text {
-		font-size: 12px;
-		bottom: -30px;
-	}
+
 }
 #ds-smilies-tooltip ul.ds-smilies-tabs li a {
 	background: white !important;

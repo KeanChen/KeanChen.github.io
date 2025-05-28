@@ -18,6 +18,6 @@ The original purpose of setting up this blog is not only to record some of my ex
             <div class="spark spark-3"></div>
             <div class="spark spark-4"></div>
         </div>
-        <div class="bonfire-text">Bonfire Lit</div>
+
     </div>
 </div>

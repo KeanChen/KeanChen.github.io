@@ -18,6 +18,6 @@ Hey，我是Keyon，仍在成长中。
             <div class="spark spark-3"></div>
             <div class="spark spark-4"></div>
         </div>
-        <div class="bonfire-text">篝火已点燃</div>
+
     </div>
 </div>
