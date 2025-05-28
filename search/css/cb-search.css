@@ -1,61 +1,239 @@
-		@media screen and (min-width: 768px) {
-            .dropdown-menu {
-				position:relative;
-                float: none;
-                font-size: 20px;
-                width: 70%;
-                margin: 0 15%;
-            }
+/* 搜索工具样式 */
+.cb-search-tool {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 9999;
+    display: none;
+    overflow-y: auto;
+}
 
-			.cb-search-tool ul{
-                 width: 70% ;
-                 white-space:nowrap;
-                 overflow:hidden;
-                 text-overflow: ellipsis;
-             }
+/* 搜索输入框样式 */
+@media screen and (min-width: 768px) {
+    .cb-search-content {
+        width: 70%;
+        margin: 0 15%;
+        position: fixed;
+        top: 60px;
+        left: 15%;
+        right: 15%;
+        font-size: 22px;
+        height: 50px;
+        background-color: #fff;
+        color: #333;
+        border: none;
+        border-radius: 5px;
+        padding: 0 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
 
+    .search-results-container {
+        width: 70%;
+        margin: 120px 15% 20px 15%;
+        max-height: calc(100vh - 140px);
+        overflow-y: auto;
+    }
+}
 
-            .cb-search-content {
-                width: 70%;
-                margin: 0 15%;
-                position: absolute;
-                top: 13%;
-                left: auto;
-                right: auto;
-                font-size: 22px;
-                height: 50px;
-                background-color: #eee;
-                color: black;
-                opacity: 1.0;
-            }
-        }
+@media screen and (max-width: 767px) {
+    .cb-search-content {
+        width: 90%;
+        margin: 0 5%;
+        position: fixed;
+        top: 60px;
+        left: 5%;
+        right: 5%;
+        font-size: 18px;
+        height: 45px;
+        background-color: #fff;
+        color: #333;
+        border: none;
+        border-radius: 5px;
+        padding: 0 15px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
 
-        @media screen and (max-width: 767px) {
-            .dropdown-menu {
-				position:relative;
-                float: none;
-                font-size: 20px;
-                width: 96%;
-                margin: 0 2%;
-            }
-			.cb-search-tool ul{
-				width: 96% ;
-				white-space:nowrap; 
-				overflow:hidden; 
-				text-overflow: ellipsis;
-			}
+    .search-results-container {
+        width: 90%;
+        margin: 115px 5% 20px 5%;
+        max-height: calc(100vh - 135px);
+        overflow-y: auto;
+    }
+}
 
-            .cb-search-content {
-                width: 96%;
-                margin: 0 2%;
-                position: absolute;
-                top: 10%;
-                left: auto;
-                right: auto;
-                font-size: 22px;
-                height: 50px;
-                background-color: #eee;
-                color: black;
-                opacity: 1.0;
-            }
-        }
+/* 搜索结果样式 */
+.search-results-header {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.search-no-results {
+    color: #ccc;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.search-result-item {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-result-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.search-result-title {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.3;
+}
+
+.search-result-meta {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.search-result-date {
+    margin-right: 15px;
+}
+
+.search-result-author {
+    font-style: italic;
+}
+
+.search-result-subtitle {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+}
+
+.search-result-excerpt {
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.search-result-tags {
+    margin-top: 10px;
+}
+
+.search-tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #666;
+    padding: 3px 8px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+}
+
+/* 高亮样式 */
+.search-highlight {
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* 关闭按钮样式 */
+#cb-close-btn {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+#cb-close-btn:hover {
+    opacity: 1;
+}
+
+/* 搜索按钮样式 */
+#cb-search-btn {
+    position: fixed;
+    right: 16px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
+
+#cb-search-btn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* 滚动条样式 */
+.search-results-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.search-results-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.search-results-container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+.search-results-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* 搜索输入框焦点样式 */
+.cb-search-content:focus {
+    outline: none;
+    box-shadow: 0 2px 15px rgba(0, 133, 161, 0.3);
+    border: 2px solid #0085a1;
+}
+
+/* 响应式调整 */
+@media screen and (max-width: 480px) {
+    .search-result-item {
+        padding: 15px;
+    }
+
+    .search-result-title {
+        font-size: 18px;
+    }
+
+    .search-result-meta {
+        font-size: 13px;
+    }
+
+    .search-result-excerpt {
+        font-size: 13px;
+    }
+}
