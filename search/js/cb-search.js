@@ -158,7 +158,7 @@ $(document).ready(function () {
         } else {
             resultsHtml = '<div class="search-results-header">找到 ' + searchResults.length + ' 篇相关文章</div>';
 
-            searchResults.slice(0, 8).forEach(function(result) { // 只显示前8个结果
+            searchResults.forEach(function(result) { // 显示所有搜索结果
                 var post = result.post;
                 var excerpt = getHighlightedExcerpt(post.content, currentQuery);
                 var highlightedTitle = highlightText(post.title, currentQuery);

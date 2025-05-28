@@ -17,15 +17,7 @@ sidebar-avatar: /img/about-Keyon-gentle.JPG      # use absolute URL, seeing it's
 
 
 # SNS settings
-RSS: true          
-github_username:    KeanChen
-facebook_username:  keanchen1203
-twitter_username:   keanchen1203
-bilibili_username:  39477727
-instagram_username: keanchen1203
-linkedin_username:  柯安-陈-892a74163
-douban_username:    keanchen1203
-youtube_username:   UCsp9fOBKYclMhubFHk9BdqQ
+RSS: true
 
 
 
@@ -57,25 +49,28 @@ kramdown:
 
 
 # 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: 
-
-# Gitalk
-#gitalk:
-#  enable: true    #是否开启Gitalk评论
-#  clientID:    #生成的clientID
-#  clientSecret:   #同上
-#  repo: KeanChen.github.io    #仓库名称
-#  owner: KeanChen    #github用户名
-#  admin: KeanChen
-#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# Giscus 评论系统
+giscus:
+  enable: true
+  repo: KeanChen/KeanChen.github.io
+  repo-id: # 需要在 https://giscus.app 获取
+  category: General
+  category-id: # 需要在 https://giscus.app 获取
+  mapping: pathname
+  strict: 0
+  reactions-enabled: 1
+  emit-metadata: 0
+  input-position: bottom
+  theme: preferred_color_scheme
+  lang: zh-CN
+  loading: lazy
 
 
 # 统计
 
 # Analytics settings
 # Baidu Analytics
-#ba_track_id: 
+#ba_track_id:
 
 # Google Analytics
 ga_track_id: 'UA-116690325-1'            # Format: UA-xxxxxx-xx
@@ -94,22 +89,3 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
-
-
- Friends
-friends: [
-    {
-        title: "詹彤",
-        href: "https://tomstark827.github.io/"
-    },{
-        title: "王雨飞",
-        href: "https://wyf0912.github.io/"
-    },{
-        title: "薇拉",
-        href: "https://www.zuozuovera.com/"
-    },{
-        title: "Komachi",
-        href: "https://komachi.moe/"
-    }
-]

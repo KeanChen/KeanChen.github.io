@@ -15,11 +15,9 @@
 @media screen and (min-width: 768px) {
     .cb-search-content {
         width: 70%;
-        margin: 0 15%;
         position: fixed;
         top: 60px;
         left: 15%;
-        right: 15%;
         font-size: 22px;
         height: 50px;
         background-color: #fff;
@@ -28,24 +26,33 @@
         border-radius: 5px;
         padding: 0 20px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        z-index: 10000;
     }
 
     .search-results-container {
+        position: absolute;
         width: 70%;
-        margin: 120px 15% 20px 15%;
-        max-height: calc(100vh - 140px);
+        left: 15%;
+        top: 130px;
+        bottom: 20px;
         overflow-y: auto;
+        padding-right: 10px;
+        /* 隐藏滚动条但保持滚动功能 */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+
+    .search-results-container::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
     }
 }
 
 @media screen and (max-width: 767px) {
     .cb-search-content {
         width: 90%;
-        margin: 0 5%;
         position: fixed;
         top: 60px;
         left: 5%;
-        right: 5%;
         font-size: 18px;
         height: 45px;
         background-color: #fff;
@@ -54,13 +61,24 @@
         border-radius: 5px;
         padding: 0 15px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        z-index: 10000;
     }
 
     .search-results-container {
+        position: absolute;
         width: 90%;
-        margin: 115px 5% 20px 5%;
-        max-height: calc(100vh - 135px);
+        left: 5%;
+        top: 120px;
+        bottom: 20px;
         overflow-y: auto;
+        padding-right: 10px;
+        /* 隐藏滚动条但保持滚动功能 */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+
+    .search-results-container::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
     }
 }
 
@@ -193,24 +211,7 @@
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* 滚动条样式 */
-.search-results-container::-webkit-scrollbar {
-    width: 8px;
-}
 
-.search-results-container::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
-}
-
-.search-results-container::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-}
-
-.search-results-container::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.5);
-}
 
 /* 搜索输入框焦点样式 */
 .cb-search-content:focus {

@@ -82,7 +82,29 @@ layout: default
                     {% endif %}
                 </ul>
 
-
+                <!-- Giscus 评论 start -->
+                {% if site.giscus.enable %}
+                <hr>
+                <div id="giscus-container">
+                    <script src="https://giscus.app/client.js"
+                        data-repo="{{ site.giscus.repo }}"
+                        data-repo-id="{{ site.giscus.repo-id }}"
+                        data-category="{{ site.giscus.category }}"
+                        data-category-id="{{ site.giscus.category-id }}"
+                        data-mapping="{{ site.giscus.mapping }}"
+                        data-strict="{{ site.giscus.strict }}"
+                        data-reactions-enabled="{{ site.giscus.reactions-enabled }}"
+                        data-emit-metadata="{{ site.giscus.emit-metadata }}"
+                        data-input-position="{{ site.giscus.input-position }}"
+                        data-theme="{{ site.giscus.theme }}"
+                        data-lang="{{ site.giscus.lang }}"
+                        data-loading="{{ site.giscus.loading }}"
+                        crossorigin="anonymous"
+                        async>
+                    </script>
+                </div>
+                {% endif %}
+                <!-- Giscus 评论 end -->
 
             </div>
 
@@ -126,38 +148,14 @@ layout: default
                 </section>
                 {% endif %}
 
-                <!-- Friends Blog -->
-                {% if site.friends %}
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
+
             </div>
         </div>
     </div>
 </article>
 
 
-{% if site.disqus_username %}
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{page.id}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}
 
 
 {% if site.anchorjs %}
