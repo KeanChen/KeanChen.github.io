@@ -57,6 +57,12 @@
   height: 100%;
   padding-bottom: 40px;
   width: 195px;
+  /* 隐藏滚动条但保持滚动功能 */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.side-catalog::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 .side-catalog.fixed {
   position: fixed;
