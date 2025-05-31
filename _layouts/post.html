@@ -42,6 +42,16 @@ layout: default
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
     }
+
+    /* 隐藏article容器的滚动条 */
+    article {
+        /* 隐藏滚动条但保持滚动功能 */
+        scrollbar-width: none !important; /* Firefox */
+        -ms-overflow-style: none !important; /* IE and Edge */
+    }
+    article::-webkit-scrollbar {
+        display: none !important; /* Chrome, Safari, Opera */
+    }
 </style>
 <header class="intro-header" >
     <div class="header-mask"></div>
