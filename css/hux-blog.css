@@ -530,8 +530,8 @@ pre code {
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
-    margin-bottom: 20px;
-    /* response on desktop */
+    margin-bottom: 0px;
+    /* response on desktop - 修改为0px以避免微小滚动条 */
   }
 }
 .intro-header .site-heading,

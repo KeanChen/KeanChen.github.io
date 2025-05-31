@@ -22,6 +22,26 @@ layout: default
         background: rgba(0,0,0, {{ page.header-mask }});
     }
     {% endif %}
+
+    /* 修复文章页面可能导致微小滚动条的元素 */
+    .pager {
+        margin: 0 !important;
+    }
+
+    hr[style*="visibility: hidden"] {
+        margin: 0 !important;
+        height: 0 !important;
+        border: none !important;
+    }
+
+    #giscus-container {
+        margin-bottom: 0 !important;
+    }
+
+    .sidebar-container:last-child {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
 </style>
 <header class="intro-header" >
     <div class="header-mask"></div>
