@@ -43,28 +43,24 @@ layout: default
         padding-bottom: 0 !important;
     }
 
-    /* 确保移动设备上的触摸滚动正常工作 */
-    body, html {
-        -webkit-overflow-scrolling: touch;
+    /* 强制移除article容器的滚动条产生原因 */
+    article {
+        overflow: visible !important;
+        height: auto !important;
+        max-height: none !important;
+        min-height: auto !important;
     }
 
-    /* 只在桌面端隐藏article容器的滚动条 */
-    @media only screen and (min-width: 1024px) {
-        article {
-            /* 隐藏滚动条但保持滚动功能 */
-            scrollbar-width: none !important; /* Firefox */
-            -ms-overflow-style: none !important; /* IE and Edge */
-        }
-        article::-webkit-scrollbar {
-            display: none !important; /* Chrome, Safari, Opera */
-        }
-    }
-
-    /* 移动端保持正常滚动条和优化触摸滚动 */
-    @media only screen and (max-width: 1023px) {
-        body, html, article {
-            -webkit-overflow-scrolling: touch !important;
-        }
+    article .container,
+    article .row,
+    article .col-lg-8,
+    article .col-md-10,
+    article .post-container,
+    article .sidebar-container {
+        overflow: visible !important;
+        height: auto !important;
+        max-height: none !important;
+        min-height: auto !important;
     }
 </style>
 <header class="intro-header" >
