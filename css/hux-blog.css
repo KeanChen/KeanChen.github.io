@@ -145,28 +145,6 @@ body {
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
-  /* 隐藏页面滚动条但保持滚动功能 */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-}
-body::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
-}
-html {
-  /* 隐藏html滚动条但保持滚动功能 */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-}
-html::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
-}
-/* 全局隐藏所有滚动条 */
-*::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
-}
-* {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
 }
 p {
   margin: 30px 0;
