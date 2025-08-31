@@ -101,29 +101,79 @@ class StockWidget {
 
     // 获取单只股票数据
     fetchStockData(stock) {
+        // 首先尝试新浪财经API
+        this.fetchFromSina(stock).catch(() => {
+            // 如果失败，尝试腾讯财经API
+            console.log(`新浪API失败，尝试腾讯API获取${stock.name}数据`);
+            this.fetchFromTencent(stock);
+        });
+    }
+
+    // 从新浪财经获取数据
+    fetchFromSina(stock) {
+        return new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            const timestamp = Date.now();
+            const scriptId = `sina-script-${stock.idPrefix}-${timestamp}`;
+            script.id = scriptId;
+
+            script.src = `https://hq.sinajs.cn/list=${stock.market}${stock.code}`;
+
+            script.onload = () => {
+                setTimeout(() => {
+                    const success = this.parseSinaData(stock);
+                    this.removeScript(scriptId);
+                    if (success) {
+                        resolve();
+                    } else {
+                        reject(new Error('解析新浪数据失败'));
+                    }
+                }, 200);
+            };
+
+            script.onerror = () => {
+                this.removeScript(scriptId);
+                reject(new Error('新浪API加载失败'));
+            };
+
+            setTimeout(() => {
+                this.removeScript(scriptId);
+                reject(new Error('新浪API超时'));
+            }, 8000);
+
+            document.head.appendChild(script);
+        });
+    }
+
+    // 从腾讯财经获取数据
+    fetchFromTencent(stock) {
         const script = document.createElement('script');
         const timestamp = Date.now();
-        const scriptId = `stock-script-${stock.idPrefix}-${timestamp}`;
+        const scriptId = `tencent-script-${stock.idPrefix}-${timestamp}`;
         script.id = scriptId;
 
-        // 使用新浪财经API
-        script.src = `https://hq.sinajs.cn/list=${stock.market}${stock.code}&_=${timestamp}`;
+        // 腾讯API格式
+        const tencentCode = stock.market === 'hk' ? `r_hk${stock.code}` : `s_${stock.market}${stock.code}`;
+        script.src = `https://qt.gtimg.cn/q=${tencentCode}`;
 
         script.onload = () => {
-            this.parseStockData(stock);
-            this.removeScript(scriptId);
+            setTimeout(() => {
+                this.parseTencentData(stock);
+                this.removeScript(scriptId);
+            }, 200);
         };
 
         script.onerror = () => {
+            console.error(`腾讯API也失败了，${stock.name}数据获取失败`);
             this.showError(stock.idPrefix);
             this.removeScript(scriptId);
         };
 
-        // 设置超时
         setTimeout(() => {
+            console.warn(`腾讯API超时，${stock.name}数据获取失败`);
             this.showError(stock.idPrefix);
             this.removeScript(scriptId);
-        }, 10000);
+        }, 8000);
 
         document.head.appendChild(script);
     }
@@ -136,48 +186,124 @@ class StockWidget {
         }
     }
 
-    // 解析股票数据
-    parseStockData(stock) {
+    // 解析新浪财经数据
+    parseSinaData(stock) {
         try {
             // 构建全局变量名
             const globalVarName = `hq_str_${stock.market}${stock.code}`;
+            let dataString = window[globalVarName];
+
+            console.log(`尝试获取${stock.name}数据:`, globalVarName, dataString);
+
+            if (!dataString || typeof dataString !== 'string' || dataString.trim() === '') {
+                console.warn(`${stock.name}数据为空或无效:`, dataString);
+                return false;
+            }
+
+            // 提取引号内的数据
+            const match = dataString.match(/"([^"]+)"/);
+            if (!match || !match[1]) {
+                console.warn(`${stock.name}数据格式错误:`, dataString);
+                return false;
+            }
+
+            const stockInfo = match[1].split(',');
+            console.log(`${stock.name}解析后的数据:`, stockInfo);
+
+            if (stockInfo.length < 6) {
+                console.warn(`${stock.name}数据字段不足:`, stockInfo.length);
+                return false;
+            }
+
+            const stockName = stockInfo[0] || stock.name;
+            let currentPrice, previousClose;
+
+            // 根据市场类型解析价格数据
+            if (stock.market === 'hk') {
+                // 港股数据格式: 名称,代码,当前价格,今日开盘价,昨日收盘价,最高价,最低价...
+                currentPrice = parseFloat(stockInfo[6]) || parseFloat(stockInfo[2]);
+                previousClose = parseFloat(stockInfo[3]) || parseFloat(stockInfo[4]);
+            } else {
+                // A股数据格式: 名称,今日开盘价,昨日收盘价,当前价格,最高价,最低价...
+                currentPrice = parseFloat(stockInfo[3]);
+                previousClose = parseFloat(stockInfo[2]);
+            }
+
+            // 验证价格数据
+            if (isNaN(currentPrice) || isNaN(previousClose) || currentPrice <= 0 || previousClose <= 0) {
+                console.warn(`${stock.name}价格数据无效:`, { currentPrice, previousClose });
+                return false;
+            }
+
+            const change = currentPrice - previousClose;
+            const changePercent = previousClose > 0 ? ((change / previousClose) * 100).toFixed(2) : '0.00';
+
+            console.log(`${stock.name}最终数据:`, { currentPrice, previousClose, change, changePercent });
+
+            this.displayStockData(stock.idPrefix, {
+                name: stockName,
+                price: currentPrice.toFixed(2),
+                change: change.toFixed(2),
+                changePercent: changePercent,
+                updateTime: new Date().toLocaleTimeString('zh-CN')
+            });
+
+            return true;
+
+        } catch (error) {
+            console.error(`解析${stock.name}数据失败:`, error);
+            return false;
+        }
+    }
+
+    // 解析腾讯财经数据
+    parseTencentData(stock) {
+        try {
+            // 腾讯API返回格式: v_s_sh600519="51~贵州茅台~600519~1756.00~1780.00~1780.00~..."
+            const tencentCode = stock.market === 'hk' ? `r_hk${stock.code}` : `s_${stock.market}${stock.code}`;
+            const globalVarName = `v_${tencentCode}`;
             const dataString = window[globalVarName];
 
+            console.log(`尝试获取${stock.name}腾讯数据:`, globalVarName, dataString);
+
             if (!dataString || typeof dataString !== 'string') {
+                console.warn(`${stock.name}腾讯数据为空或无效:`, dataString);
                 this.showError(stock.idPrefix);
                 return;
             }
 
             // 提取引号内的数据
             const match = dataString.match(/"([^"]+)"/);
-            if (!match) {
+            if (!match || !match[1]) {
+                console.warn(`${stock.name}腾讯数据格式错误:`, dataString);
                 this.showError(stock.idPrefix);
                 return;
             }
 
-            const stockInfo = match[1].split(',');
+            const stockInfo = match[1].split('~');
+            console.log(`${stock.name}腾讯解析后的数据:`, stockInfo);
 
-            if (stockInfo.length < 10) {
+            if (stockInfo.length < 6) {
+                console.warn(`${stock.name}腾讯数据字段不足:`, stockInfo.length);
                 this.showError(stock.idPrefix);
                 return;
             }
 
-            const stockName = stockInfo[0];
-            let currentPrice, previousClose;
+            const stockName = stockInfo[1] || stock.name;
+            const currentPrice = parseFloat(stockInfo[3]);
+            const previousClose = parseFloat(stockInfo[4]);
 
-            // 根据市场类型解析价格数据
-            if (stock.market === 'hk') {
-                // 港股数据格式
-                currentPrice = parseFloat(stockInfo[6]);
-                previousClose = parseFloat(stockInfo[3]);
-            } else {
-                // A股数据格式
-                currentPrice = parseFloat(stockInfo[3]);
-                previousClose = parseFloat(stockInfo[2]);
+            // 验证价格数据
+            if (isNaN(currentPrice) || isNaN(previousClose) || currentPrice <= 0 || previousClose <= 0) {
+                console.warn(`${stock.name}腾讯价格数据无效:`, { currentPrice, previousClose });
+                this.showError(stock.idPrefix);
+                return;
             }
 
             const change = currentPrice - previousClose;
             const changePercent = previousClose > 0 ? ((change / previousClose) * 100).toFixed(2) : '0.00';
+
+            console.log(`${stock.name}腾讯最终数据:`, { currentPrice, previousClose, change, changePercent });
 
             this.displayStockData(stock.idPrefix, {
                 name: stockName,
@@ -188,7 +314,7 @@ class StockWidget {
             });
 
         } catch (error) {
-            console.error('解析股票数据失败:', error);
+            console.error(`解析${stock.name}腾讯数据失败:`, error);
             this.showError(stock.idPrefix);
         }
     }
