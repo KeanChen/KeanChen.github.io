@@ -48,55 +48,6 @@
 .sidebar-container .short-about .list-inline > li {
   padding-left: 0px;
 }
-.sidebar-container .stock-widget .stock-item {
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid #e8e8e8;
-  border-radius: 8px;
-  padding: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-}
-.sidebar-container .stock-widget .stock-item:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  transform: translateY(-1px);
-}
-.sidebar-container .stock-widget .stock-item .stock-name {
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 3px;
-}
-.sidebar-container .stock-widget .stock-item .stock-code {
-  font-size: 12px;
-  color: #808080;
-  margin-bottom: 6px;
-}
-.sidebar-container .stock-widget .stock-item .stock-price {
-  font-size: 20px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 3px;
-}
-.sidebar-container .stock-widget .stock-item .stock-change {
-  font-size: 14px;
-  font-weight: 500;
-  margin-bottom: 4px;
-}
-.sidebar-container .stock-widget .stock-item .stock-change.positive {
-  color: #d32f2f;
-}
-.sidebar-container .stock-widget .stock-item .stock-change.negative {
-  color: #388e3c;
-}
-.sidebar-container .stock-widget .stock-item .stock-change.neutral {
-  color: #808080;
-}
-.sidebar-container .stock-widget .stock-item .stock-update-time {
-  font-size: 11px;
-  color: #bfbfbf;
-  text-align: right;
-}
 .catalog-container {
   padding: 0px;
 }
